@@ -1,0 +1,45 @@
+@font-face {
+    font-family: art-deco;
+    src: url(market_deco.ttf);
+}
+@font-face {
+    font-family: pip-boy;
+    src: url(monofonto.ttf);
+}
+
+
+label input{
+  font-family: pip-boy, serif;
+}
+
+label {
+  display: block;
+}
+
+input select{
+
+}
+
+fieldset {
+  margin: 1.5em 0 0 0;
+  padding: 0;
+  margin-right: 30%;
+  margin-left: 30%;
+  text-align: center;
+}
+legend {
+  font-family: art-deco, serif;
+  font-size:  16px;
+  margin-left: 1em;
+  font-weight: bold;
+}
+fieldset ol {
+  padding: 0.5em 0.5em 0 0.5em;
+  list-style: none;
+}
+fieldset li {
+  padding-bottom: 0.5em;
+}
+  fieldset.submit {
+  border-style: none;
+}
